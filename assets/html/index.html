@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="css/deps.min.css">
+    <title>Single Page Application</title>
+</head>
+<body>
+    <main>
+        <header id="cabecalho">
+            <div id="logo">
+                <img src="../imgs/Logo 1 - Symbol and text.png" alt="logo-empresa">
+            </div>
+            <div id="barra-pesquisa">
+                <input id="pesquisa" name="pesquisa" type="text" placeholder="Pesquisar...">
+            </div>
+            <div id="sessao">
+                <button id="login" class="btn-spa">Login</button>
+                <button id="cadastro" class="btn-spa">Cadastrar</button>
+            </div>
+            <button id="barra-nav"><i class="fa fa-bars"></i></button>
+        </header>
+        <nav id="navegacao">
+            <a class="link-nav" href url-spa="paginas/inicio.html" destino-spa="#conteudo"><i class="fa fa-home icone"></i> Início</a>
+            <a class="link-nav" href url-spa="paginas/produtos.html" destino-spa="#conteudo"><i class="fa fa-shopping-bag icone"></i> Produtos</a>
+            <a class="link-nav" href url-spa="paginas/sobre.html" destino-spa="#conteudo"><i class="fa fa-address-card icone"></i> Sobre</a>
+            <a class="link-nav" href url-spa="paginas/contato.html" destino-spa="#conteudo"><i class="fa fa-address-book icone"></i> Contato</a>
+        </nav>
+        <section id="conteudo"></section>
+        <footer id="rodape">
+            <span id="copyright">Copyright &copy; 2021 Empresa X BR, Inc. Todos os direitos reservados.</span>
+        </footer>
+    </main>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
