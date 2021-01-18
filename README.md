@@ -20,5 +20,7 @@ gulp irá iniciar um servidor web na porta 8083, onde você pode ver a aplicaç�
 # Créditos
 
 Projeto feito no Curso de Web Moderno Completo com Javascript 2020 + Projetos (Cod3r Cursos Online)
+
 Professor: Leonardo Moura Leitao
+
 Link do curso: https://www.udemy.com/course/curso-web/
