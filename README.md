@@ -1,7 +1,7 @@
 # SPA-Ajax-Gulp
 Single Page Application with Ajax and Gulp
 
-#How to Run
+# How to Run
 
 1. Open terminal in the SPA folder
 2. Type 'npm i' to install dependencies
